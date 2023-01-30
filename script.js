@@ -1,9 +1,9 @@
 //your code here
 function myFunc() {
-	let orderedList = document.getElementByTagName("ol");
+	let orderedList = document.getElementsByTagName("ol")[0];
 	let insertedValue = document.getElementbyId("newTodoInput").value;
 
 	let createList = document.createElement("li");
-	li.textContent = insertedValue;
+	createList.textContent = insertedValue;
 	orderedList.appendChild(createList);
 }
