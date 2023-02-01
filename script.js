@@ -6,5 +6,6 @@ function myFunc() {
 		let createList = document.createElement("li");
 		createList.textContent = insertedValue;
 		orderedList.appendChild(createList);
+		document.getElementById("newTodoInput").value = "";
 	}
 }
